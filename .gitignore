@@ -1,0 +1,6 @@
+# Jetbrains .idea folder
+.idea
+
+# Visual Studios Code .vscode folders
+.vscode
+.vscode-server
