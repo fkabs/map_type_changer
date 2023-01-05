@@ -1,3 +1,6 @@
+# files folder for mounting into the docker container
+maps
+
 # Jetbrains .idea folder
 .idea
 
