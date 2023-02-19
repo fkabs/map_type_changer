@@ -1,8 +1,8 @@
 # ignore .DS_Store
 .DS_Store
 
-# files folder for mounting into the docker container
-maps
+# contents of the maps folder
+maps/*
 
 # Jetbrains .idea folder
 .idea
