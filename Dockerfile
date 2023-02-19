@@ -5,7 +5,7 @@
 FROM bash:latest as map_type_changer
 
 # label image, set version and maintainer
-LABEL Name="map_type_changer" Version="2023.01.1" maintainer="FKabs <fkabs@pm.me>"
+LABEL Name="map_type_changer" Version="2023.02.19" maintainer="FKabs <fkabs@pm.me>"
 
 
 # set non-interactive frontend
@@ -23,8 +23,6 @@ RUN mkdir /work
 # set /work as working directory
 WORKDIR /work
 
-# get latest ReplaceTyp archive, unzip it to the working directory and start bash
-ENTRYPOINT wget https://download.freizeitkarte-osm.de/Design/latest/en/ReplaceTyp.zip -O /tmp/ReplaceTyp.zip && \
-    unzip /tmp/ReplaceTyp.zip -d /work && \
-    rm /tmp/ReplaceTyp.zip && \
-    bash
+# copy entrypoint.sh to root directory and run it as entrypoints
+COPY entrypoint.sh /entrypoint.sh
+ENTRYPOINT ["/entrypoint.sh"]

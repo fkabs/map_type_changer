@@ -1,7 +1,7 @@
 # ignore .DS_Store
 .DS_Store
 
-# contents of the maps folder
+# contents of the maps folder excluding .gitkeep
 maps/*
 
 # Jetbrains .idea folder
