@@ -18,4 +18,4 @@ This mounts the "maps" folder into the container and runs the entrypoint script:
 
 The finished map with the replaced design is then available under the mounter "maps" volume: _maps/gmapsupp.img_
 
-To install the map, simply copy _maps/gmapsupp.img_ into the _Garmin_ folder of your watch!
+To install the map, simply copy _maps/gmapsupp.img_ into the _GARMIN_ folder of your watch!
