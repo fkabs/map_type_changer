@@ -9,7 +9,7 @@ echo "****************************************************************"
 echo ""
 echo "[map_type_changer] Downloading the latest 'wide area alps' map..."
 wget https://download.freizeitkarte-osm.de/garmin/latest/ALPS_en_gmapsupp.img.zip -O /work/maps/ALPS_en_gmapsupp.zip
-unzip /work/maps/ALPS_en_gmapsupp.zip -d /work/maps
+unzip -o /work/maps/ALPS_en_gmapsupp.zip -d /work/maps
 rm -f /work/maps/ALPS_en_gmapsupp.zip
 
 # download latest ReplaceTyp, unzip it and remove the zip file
