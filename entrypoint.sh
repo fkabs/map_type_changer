@@ -22,11 +22,11 @@ chmod +x /work/ReplaceTyp/ReplaceTyp.sh
 
 # replace the map's design and remove the 'ReplaceTyp' folder
 echo ""
-echo "[map_type_changer] Replacing the map type with the small design..."
+echo "[map_type_changer] Replacing the map type with a design of your choice..."
 (cd /work/ReplaceTyp/ ; sh ReplaceTyp.sh /work/maps/gmapsupp.img)
 rm -rf /work/ReplaceTyp
 
 # print the final message
 echo ""
-echo "[map_type_changer] Finished replacing the map type with the small design!"
+echo "[map_type_changer] Finished replacing the map type with the chosen all design!"
 echo ""
