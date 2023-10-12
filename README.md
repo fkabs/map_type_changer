@@ -1,9 +1,9 @@
 # map_type_changer
-This docker container downloads the latest [Wide Area Alps Freizatkarte Map](http://www.freizeitkarte-osm.de/garmin/en/regions.html) and allows to replace the design with a TYP from  the [Freizeitkarte ReplaceTyp](http://www.freizeitkarte-osm.de/garmin/en/design.html).
+This container downloads the latest [Wide Area Alps Freizatkarte Map](http://www.freizeitkarte-osm.de/garmin/en/regions.html) and allows to replace the design with a TYP from  the [Freizeitkarte ReplaceTyp](http://www.freizeitkarte-osm.de/garmin/en/design.html).
 
-To build the container, run the following command:
+To build the container using podman, run the following command:
 ```sh
-podman build -t map_type_changer .
+podman build -t map_type_changer -f .Containerfile
 ```
 
 When the image is built, you can run the container using following command:
