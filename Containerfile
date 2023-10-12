@@ -1,8 +1,8 @@
-# -------------------------------------------------------------
+# ----------------------------------------------------------------------
 # ------- STAGE: BUILD map_type_changer IMAGE --------------------------
 
-# build from bash base image (same CUDA and OS version as in NetLabs)
-FROM bash:latest as map_type_changer
+# build from docker.io bash base image
+FROM docker.io/library/bash:latest as map_type_changer
 
 # label image, set version and maintainer
 LABEL Name="map_type_changer" Version="2023.02.19" maintainer="FKabs <fkabs@pm.me>"
