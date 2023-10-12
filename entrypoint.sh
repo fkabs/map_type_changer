@@ -28,5 +28,5 @@ rm -rf /work/ReplaceTyp
 
 # print the final message
 echo ""
-echo "[map_type_changer] Finished replacing the map type with the chosen all design!"
+echo "[map_type_changer] Finished replacing the map type with the chosen design!"
 echo ""
