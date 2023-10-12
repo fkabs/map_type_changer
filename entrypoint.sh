@@ -8,9 +8,9 @@ echo "****************************************************************"
 # TODO: Allow the user to choose which map to use
 echo ""
 echo "[map_type_changer] Downloading the latest 'wide area alps' map..."
-wget https://download.freizeitkarte-osm.de/garmin/latest/ALPS_en_gmapsupp.img.zip -O /work/maps/ALPS_en_gmapsupp.zip
-unzip -o /work/maps/ALPS_en_gmapsupp.zip -d /work/maps
-rm -f /work/maps/ALPS_en_gmapsupp.zip
+wget https://download.freizeitkarte-osm.de/garmin/latest/ALPS_en_gmapsupp.img.zip -O /tmp/ALPS_en_gmapsupp.zip
+unzip -o /tmp/ALPS_en_gmapsupp.zip -d /work/maps
+rm -f /tmp/ALPS_en_gmapsupp.zip
 
 # download latest ReplaceTyp, unzip it and remove the zip file
 echo ""
