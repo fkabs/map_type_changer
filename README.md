@@ -3,12 +3,12 @@ This docker container downloads the latest [Wide Area Alps Freizatkarte Map](htt
 
 To build the container, run the following command:
 ```sh
-docker build -t map_type_changer .
+podman build -t map_type_changer .
 ```
 
 When the image is built, you can run the container using following command:
 ```sh
-docker run -it --rm -v $(pwd)/maps:/work/maps map_type_changer
+podman run -it --rm -v $(pwd)/maps:/work/maps map_type_changer
 ```
 
 This mounts the "maps" folder into the container and runs the entrypoint script:
