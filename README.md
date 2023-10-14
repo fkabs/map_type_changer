@@ -3,7 +3,7 @@ This container downloads the latest [Wide Area Alps Freizatkarte Map](http://www
 
 To build the container, run the following command:
 ```sh
-[docker|nerdctl|podman] build -t map_type_changer -f .Containerfile
+[docker|nerdctl|podman] build -t map_type_changer ./container
 ```
 
 When the image is built, you can run the container using following command:
